@@ -1,5 +1,4 @@
-﻿using System;
-namespace Fibonacci
+﻿namespace Fibonacci
 {
     public static class Algorithms
     {

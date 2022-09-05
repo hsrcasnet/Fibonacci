@@ -11,9 +11,14 @@
             {
                 int temp = a;
                 a = b;
-                b = temp + b;
+                b = Add(b, temp);
             }
             return a;
+        }
+
+        private static int Add(int a, int b)
+        {
+            return b + a;
         }
     }
 }

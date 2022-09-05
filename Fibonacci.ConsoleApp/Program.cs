@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading;
 
-namespace Fibonacci.Console
+namespace Fibonacci.ConsoleApp
 {
     internal class Program
     {

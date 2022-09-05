@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 
 namespace Fibonacci.ConsoleApp
@@ -15,7 +16,7 @@ namespace Fibonacci.ConsoleApp
                 var fibonacci = Algorithms.Fibonacci(i);
                 list.Add(fibonacci);
 
-                System.Console.WriteLine(fibonacci);
+                Console.WriteLine(fibonacci);
             }
         }
     }
